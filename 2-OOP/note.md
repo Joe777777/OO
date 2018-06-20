@@ -58,7 +58,6 @@
             # dict前后各有两个下划线
             class_name.__dict__
             
-            
 # 3. anaconda基本使用
 - anaconda 主要是一个虚拟环境管理器
 - 还是一个安装包管理器
