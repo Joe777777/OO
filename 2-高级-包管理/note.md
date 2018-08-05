@@ -95,7 +95,7 @@
         - 案例 p08
     - import package.module as pm
     
-from ...import 导入
+from ...import 导入f
     - from package import module1， moudle2, ...
     - 此种导入方法不执行"__init__"的内容
             from pkg01 import p01
