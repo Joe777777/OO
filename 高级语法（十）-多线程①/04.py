@@ -6,7 +6,6 @@
 # 练习带参数的多线程启动方法
 import time
 # 导入多线程包并更名为thread
-
 import threading
 
 def loop1(int1):
@@ -32,10 +31,8 @@ def main():
     # 生成threading.Thread实例
     t1 = threading.Thread(target=loop1, args=("xiaoming",))
     t1.start()
-
     t2 = threading.Thread(target=loop2, args=("zhangsan", "lisi"))
     t2.start()
-
     print("All done at:", time.ctime())
 
 if __name__ == '__main__':

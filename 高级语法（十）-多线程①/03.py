@@ -34,7 +34,6 @@ def main():
     # 注意：如果函数只有一个参数，需要参数后有一个逗号
     thread.start_new_thread(loop1, ("xiaoming", ))
     thread.start_new_thread(loop2, ("zhangsan", "lisi"))
-
     print("All done at:", time.ctime())
 
 if __name__ == '__main__':

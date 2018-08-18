@@ -23,9 +23,7 @@ def main():
     # 参数两个，一个是需要运行的函数名，第二个是函数的参数作为元祖使用，为空则使用空元祖
     # 注意：如果函数只有一个参数，需要参数后面有一个逗号
     thread.start_new_thread(loop1, ())
-
     thread.start_new_thread(loop2, ())
-
     print("all done at:", time.ctime())
 
 if __name__ == '__main__':

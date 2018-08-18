@@ -1,4 +1,5 @@
 # -*-coding:utf-*
+
 import time
 import threading
 
@@ -6,6 +7,7 @@ def fun():
     print("Start fun")
     time.sleep(2)
     print("End fun")
+
 
 print("Main thread")
 

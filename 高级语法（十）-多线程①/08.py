@@ -13,7 +13,7 @@ def loop1():
 def loop2():
     # ctime 得到当前时间
     print("Start loop 2 at:", time.ctime())
-    # 睡眠多吃时间，单位是秒
+    # 睡眠多长时间，单位是秒
     time.sleep(2)
     print("End loop 2 at:", time.ctime())
 

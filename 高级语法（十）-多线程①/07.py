@@ -16,6 +16,5 @@ t1.setDaemon(True)
 # t1.daemon = True
 t1.start()
 
-
 time.sleep(1)
 print("Main thread end")

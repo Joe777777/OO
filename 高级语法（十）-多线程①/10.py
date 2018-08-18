@@ -22,7 +22,6 @@ class ThreadFunc:
 
 def main():
         print("Starting at: ", ctime())
-
         # ThreadFunc("loop").loop 跟以下两个式子相等：
         # t = ThreadFunc("loop")
         # t.loop
@@ -35,13 +34,10 @@ def main():
         # 常见错误写法
         # t1 = threading.Thread(target=ThreadFunc("loop").loop(100,4))
         # t2 = threading.Thread(target=ThreadFunc("loop").loop(100,4))
-
         t1.start()
         t2.start()
-
         t1.join()
         t2.join()
-
         print("All done at: ", ctime())
 
 if __name__ == '__main__':
