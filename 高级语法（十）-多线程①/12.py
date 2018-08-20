@@ -4,7 +4,6 @@ import threading
 
 sum = 0
 loopSum = 100000
-
 lock = threading.Lock()
 
 def myAdd():

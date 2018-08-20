@@ -4,7 +4,6 @@ import threading
 
 sum = 0
 loopSum = 100000
-
 def myAdd():
     global sum, loopSum
     for i in range(1, loopSum):
@@ -25,7 +24,6 @@ if __name__ == '__main__':
 
 # 改成多线程
     print("Starting....{0}".format(sum))
-
 # 开始多线程实例，看执行结果是否一样
     t1 = threading.Thread(target=myAdd, args=())
     t2 = threading.Thread(target=myMinu, args=())

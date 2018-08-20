@@ -5,7 +5,6 @@ import time
 
 # Python 2
 # from Queue import Queue
-
 # Python 3
 import  queue
 
@@ -37,7 +36,6 @@ class Consumer(threading.Thread):
 
 if __name__ == '__main__':
     queue = queue.Queue()
-
     for i in range(500):
         queue.put("初始产品"+str(i))
     for i in range(2):
