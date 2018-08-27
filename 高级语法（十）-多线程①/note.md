@@ -87,7 +87,7 @@ https://www.dabeaz.com/python/UnderstandingGIL.pdf
     - 完全跳过线程，使用进程
     - 是派生进程的主要替代方案
     - Python2.4后引入
-- multiprocessiong
+- multiprocessing
     - 使用threading接口派生，使用子进程
     - 允许为多核或者多cpu派生进程，接口跟threading非常相似
     - Python2.6
